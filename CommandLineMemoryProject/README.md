@@ -1,7 +1,6 @@
 Goal
-This project is as a refresher for building software in ‘C’. In particular, the project involves  Linux system calls, buffering file I/O, memory management, and C-string parsing.
-
-I write a program, memory, that provides a get/set memory abstraction for files in a Linux directory. My program should take a command from stdin and carries out the command in the current working directory. Below, are some examples of how memory works, outlines the commands formally, describes how I handle invalid commands, and provides notes about other functionality and limitations of memory.
+• This project is as a refresher for building software in ‘C’. In particular, the project involves  Linux system calls, buffering file I/O, memory management, and C-string parsing.
+• I write a program, memory, that provides a get/set memory abstraction for files in a Linux directory. My program should take a command from stdin and carries out the command in the current working directory. Below, are some examples of how memory works, outlines the commands formally, describes how I handle invalid commands, and provides notes about other functionality and limitations of memory.
 
 Examples
 1. Example 1. In this example, the user passes the string “get\nfoo.txt\n” to stdin. memory outputs the contents of foo.txt (“Hello from foo”) to stdout and then exits with a return code of 0.
